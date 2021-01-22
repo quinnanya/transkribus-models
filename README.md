@@ -10,6 +10,7 @@ Images of example pages from Transkribus model training sets to make it easier t
 | :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | Pylaia | 102875      | 17029      | 0.50%   | 0.30%   |
 
+**Ground Truth Examples**
 | 110      | 166 | 181     | 201     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![DAT 18 p. 110](images/dat18_110.png)](images/dat18_110.png)      | [![DAT 18 p. 166](images/dat18_166.png)](images/dat18_166.png)      | [![DAT 18 p. 181](images/dat18_181.png)](images/dat18_181.png)   | [![DAT 18 p. 201](images/dat18_201.png)](images/dat18_201.png)   |
@@ -30,6 +31,7 @@ T2I from the transcripts to Transkribus model has been done by Dr. C.A. Romein.
 | :---    | :---    | :---         |    :----:   |          ---: |          ---: |
 | Handwriting | Pylaia | 64435      | 6864      | 1.30%   | 4.00%   |
 
+**Ground Truth Examples**
 | 22      | 145 | 66     | 114     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Pylaia NeoLatin Ravenstein p. 22](images/pylaia_neolatin_ravenstein_22.png)](images/pylaia_neolatin_ravenstein_22.png)      | [![Pylaia NeoLatin Ravenstein p. 45](images/pylaia_neolatin_ravenstein_45.png)](images/pylaia_neolatin_ravenstein_45.png)      | [![Pylaia NeoLatin Ravenstein p. 66](images/pylaia_neolatin_ravenstein_66.png)](images/pylaia_neolatin_ravenstein_66.png)   | [![Pylaia NeoLatin Ravenstein p. 114](images/pylaia_neolatin_ravenstein_114.png)](images/pylaia_neolatin_ravenstein_114.png)   |
@@ -127,3 +129,57 @@ For more information regarding the background of the model and how to cite it, p
 | Print | Pylaia | 88105      | 13013      | 0.30%   | 1.40%   |
 
 No training images available.
+
+
+## Dutch\_Gothic\_Print_Pylaia
+**Language:** Dutch Gothic
+
+**Description:** This model is based on printed texts in the Gothic font that was used in the Low Countries, during the 16th, 17th and 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. 
+
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---     | :---        |    :----:   |          ---: |          ---: |
+| Print | Pylaia | 51143      | 7143      | 0.20%   | 2.00%   |
+
+No training images available.
+
+## French\_18thC_Pylaia
+**Language:** French
+
+**Description:** This model is based on printed texts in French (Romantype Font) that was used in Flanders (Low Countries), during the 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. 
+
+This model has been the result of one of the KB National Library of the Netherlands Researcher-in-Residence position 2019. The project was called 'Entangled Histories'. The books used for this specific model, have been provided by the Bodleian Library Oxford (RECUEIL DES ÉDITS, DÉCLARATIONS, LETTRES-PATENTES, &c. ENREGISTRÉS
+AU PARLEMENT DE FLANDRES).
+
+For more information regarding the background of the model and how to cite it, please visit: www.https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries 
+
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---     | :---        |    :----:   |          ---: |          ---: |
+| Print | Pylaia | 38487     | 3883      | 0.10%   | 0.91%   |
+
+No training images available.
+
+## German\_Kurrent\_XIX\_pylaia
+**Language:** German
+
+**Description:** Large train and test set for german kurrent (19. century). GT from different projects and partners. Biased towards Swiss Documents.
+
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---     | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | Pylaia | 5100439     | 764457      | 4.60%   | 6.90%   |
+
+No training images available.
+
+## Estonian Court Records 19thC
+**Language:** Estonian
+
+**Description:** Model is based on Uue-Põltsamaa court records (vallakohus, gemeindegericht) 1852-1864 from Estonian National Archives.
+
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---     | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 56190     | 10204     | 0.68%   | 3.55%   |
+
+**Ground Truth Examples**
+**Ground Truth Examples**
+| 36      | 42 | 68     | 173     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Estonian Court Records p. 36](images/estonian_court_records_36.png)](images/estonian_court_records_36.png)      | [![Estonian Court Records p. 42](images/estonian_court_records_42.png)](images/estonian_court_records_42.png)      | [![Estonian Court Records p. 68](images/estonian_court_records_68.png)](images/estonian_court_records_68.png)   | [![Estonian Court Records p. 173](images/estonian_court_records_173.png)](images/estonian_court_records_173.png)   |
