@@ -251,3 +251,49 @@ No training image samples available.
 | 318     | 364 | 385     | 422     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Gothenburg police p. 318](images/gothenburg_police_318.png)](images/gothenburg_police_318.png)      | [![Gothenburg police p. 364](images/gothenburg_police_364.png)](images/gothenburg_police_364.png)      | [![Gothenburg police p. 385](images/gothenburg_police_385.png)](images/gothenburg_police_385.png)   | [![Gothenburg police p. 422](images/gothenburg_police_422.png)](images/gothenburg_police_422.png)   |
+
+
+## Transkribus print 0.1
+**Language:** Danish, Dutch, German, Finnish, French, Latin, Swedish
+
+**Description:** A first attempt to create a large model for printed historical documents. The model should be able to read historical Danish, Dutch, German, Finnish, French, Latin, and Swedish with good quality. Note: If you have printed material in other languages use this model as basemodel for training to speed up the creation of your special models.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 3661935    | 592933    | 2.18%   | 1.50%   |
+
+No training image samples available.
+
+
+## Noscemus GM 2.2
+
+**Language:** Latin, Greek, German et al.
+
+**Description:** The "NOSCEMUS General Model" is able to read printed Latin text, especially from the 15th, 16th, 17th and 18th century. The model was released by Stefan Zathammer and it is based on training data coming from the Digital Sourcebook of the NOSCEMUS project (https://www.uibk.ac.at/projects/noscemus/)
+
+For the 2nd revised and updated version a substantial amount of new pages was added, including prints from the 15th century, texts set in Fraktur and texts with a considerable amount of Greek passages.
+
+Although the model is tailored towards transcribing (Neo-)Latin texts set in Antiqua-based typefaces, it is also, to a certain degree, able to handle Greek words and words set in (German) Fraktur.
+
+The NOSCEMUS project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 741374).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 345878    | 52459    | 0.39%   | 0.79%   |
+
+No training image samples available.
+
+## DiJeSt for Hebrew Script Languages
+
+**Language:** Hebrew, Yiddish, Ladino, Judeo-Arabic
+
+**Description:** Trained on a mix of historic Hebrew scripts and languages, in the framework of the project DiJeSt. For details: 
+http://dijest.net/gtmodel
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 774192    | 79483    | 1.80%   | 1.56%   |
+
+**Ground Truth Examples**
+| 1     | 41 | 65     | 1322     |
+| [![DiJeSt for Hebrew Script Languages p. 1](images/dijest_1.png)](images/dijest_1.png)      | [![DiJeSt for Hebrew Script Languages p. 41](images/dijest_41.png)](images/dijest_41.png)      | [![DiJeSt for Hebrew Script Languages p. 65](images/dijest_65.png)](images/dijest_65.png)   | [![DiJeSt for Hebrew Script Languages p. 1322](images/dijest_1322.png)](images/dijest_1322.png)   |
