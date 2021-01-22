@@ -6,9 +6,9 @@ Images of example pages from Transkribus model training sets to make it easier t
 
 **Description:** 19th century newspaper. Fraktur. 130 pages OCR correction and proofing. Print style for umlaut varies throughout (superscript "e" vs öäü). Since no applicable Pylaia model was available for training, the training set includes the HTR model data for DAT 18. Jh M1 and M2.
 
-| Words     | Lines | CER train     | CER validation     |
-| :---        |    :----:   |          ---: |          ---: |
-| 102875      | 17029      | 0.50%   | 0.30%   |
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | 102875      | 17029      | 0.50%   | 0.30%   |
 
 | 110      | 166 | 181     | 201     |
 | :---        |    :----:   |          ---: |          ---: |
@@ -26,10 +26,22 @@ More information can be found at: https://jaarbrieven.blogspot.com/ and https://
 
 T2I from the transcripts to Transkribus model has been done by Dr. C.A. Romein.
 
-| Words     | Lines | CER train     | CER validation     |
-| :---        |    :----:   |          ---: |          ---: |
-| 64435      | 6864      | 1.30%   | 4.00%   |
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---        | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | 64435      | 6864      | 1.30%   | 4.00%   |
 
-| 22      | 145 | 66     |  114     |
+| 22      | 145 | 66     | 114     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Pylaia NeoLatin Ravenstein p. 22](images/pylaia_neolatin_ravenstein_22.png)](images/pylaia_neolatin_ravenstein_22.png)      | [![Pylaia NeoLatin Ravenstein p. 45](images/pylaia_neolatin_ravenstein_45.png)](images/pylaia_neolatin_ravenstein_45.png)      | [![Pylaia NeoLatin Ravenstein p. 66](images/pylaia_neolatin_ravenstein_66.png)](images/pylaia_neolatin_ravenstein_66.png)   | [![Pylaia NeoLatin Ravenstein p. 114](images/pylaia_neolatin_ravenstein_114.png)](images/pylaia_neolatin_ravenstein_114.png)   |
+
+
+## German\_Kurrent_17th-18th
+**Languages:** German, Latin, French
+
+**Description:**  The model was trained with manuscripts of the 17th, 18th and few dates of the 19th century.  Occasionally, printed material from the same period were also included. In total, the Ground Truth is based on about 1500 individual handwritings, which come from the council minutes of the University of Greifswald, the assessor votes of the Wismar High Court, the minutes of the Pomeranian government of Stralsund, the responsa of the Greifswald Law Faculty and other archival holdings, such as private letter collections.
+
+| Type | Words     | Lines | CER train     | CER validation     |
+| :---     | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | 1839841      | 289857      | 6.00%   | 5.50%   |
+
+No training images available.
