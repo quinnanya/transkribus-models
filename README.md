@@ -296,4 +296,40 @@ http://dijest.net/gtmodel
 
 **Ground Truth Examples**
 | 1     | 41 | 65     | 1322     |
+| :---        |    :----:   |          ---: |          ---: |
 | [![DiJeSt for Hebrew Script Languages p. 1](images/dijest_1.png)](images/dijest_1.png)      | [![DiJeSt for Hebrew Script Languages p. 41](images/dijest_41.png)](images/dijest_41.png)      | [![DiJeSt for Hebrew Script Languages p. 65](images/dijest_65.png)](images/dijest_65.png)   | [![DiJeSt for Hebrew Script Languages p. 1322](images/dijest_1322.png)](images/dijest_1322.png)   |
+
+## EvenkiRussian-RychkovArchive-v1.0
+
+**Language:** Evenki, Russian
+
+**Description:** Bilingual manuscripts by Konstantin Rychkov, 1910s. Parallel Evenki (Tungusic) and Russian texts. Cyrillic script with extensions.
+
+This model is trained on Rychkov archive Folder 5 pp. 001-233.  No Base Model. Validation set 18 pages. 60 epochs. Acute accent disregarded.
+
+Model trained in the INEL project ("Grammatical Descriptions, Corpora, and Language Technology for Indigenous Northern Eurasian Languages") https://inel.corpora.uni-hamburg.de/
+
+Manuscripts from the archive of Konstantin Rychkov provided by the Institute of Oriental Manuscripts RAS http://www.orientalstudies.ru/
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 40561    | 9968    | 2.76%   | 2.91%   |
+
+No training image samples available.
+
+
+## Medieval Protocolbook 's-Hertogenbosch by Townclerck Petrus de Os sr., 1497-1542
+
+**Language:** Latin, Dutch
+
+**Description:** Protocolbook of the city of 's-Hertogenbosch, written by magister Petrus de Os sr., townclerck from 1497 until 1542. This protocolbook contains the minutes of the charters on voluntary jurisdiction
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 46638    | 3876    | 1.00%   | 4.11%   |
+
+**Ground Truth Examples**
+| 4     | 32 | 53     | 87     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Medieval Protocolbook p. 4](images/protocolbook_4.png)](images/protocolbook_4.png)      | [![Medieval Protocolbook p. 32](images/protocolbook_32.png)](images/protocolbook_32.png)      | [![Medieval Protocolbook p. 53](images/protocolbook_53.png)](images/protocolbook_53.png)   | [![Medieval Protocolbook p. 87](images/protocolbook_87.png)](images/protocolbook_87.png)   |
+
