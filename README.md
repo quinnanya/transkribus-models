@@ -249,4 +249,5 @@ No training image samples available.
 
 **Ground Truth Examples**
 | 318     | 364 | 385     | 422     |
+| :---        |    :----:   |          ---: |          ---: |
 | [![Gothenburg police p. 318](images/gothenburg_police_318.png)](images/gothenburg_police_318.png)      | [![Gothenburg police p. 364](images/gothenburg_police_364.png)](images/gothenburg_police_364.png)      | [![Gothenburg police p. 385](images/gothenburg_police_385.png)](images/gothenburg_police_385.png)   | [![Gothenburg police p. 422](images/gothenburg_police_422.png)](images/gothenburg_police_422.png)   |
