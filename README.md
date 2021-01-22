@@ -333,3 +333,50 @@ No training image samples available.
 | :---        |    :----:   |          ---: |          ---: |
 | [![Medieval Protocolbook p. 4](images/protocolbook_4.png)](images/protocolbook_4.png)      | [![Medieval Protocolbook p. 32](images/protocolbook_32.png)](images/protocolbook_32.png)      | [![Medieval Protocolbook p. 53](images/protocolbook_53.png)](images/protocolbook_53.png)   | [![Medieval Protocolbook p. 87](images/protocolbook_87.png)](images/protocolbook_87.png)   |
 
+## NeoLatin\_Ravenstein_1643-1772
+
+**Language:** Latin
+
+**Description:** This model is based on the transcription of the "Litterae Annuae Parochiae Ravensteijn SJ ab Anno 1643 ad Annum 1772".
+The annual letters were kept at the Archivum Neerlandicum Societatis Iesu (Berchmannianum, Nijmegen) . These are now at the Catholic Document Center (Katholiek Documentatie Centrum (KADOC)) in Leuven, Belgium  (inventarisnummer 15.606).
+
+Tom Gribnau photographed the manuscript; the transcriptions were made by Pim Boer, Leo Nellissen. 
+This belongs to the publication: Tom Gribnau, Pim Boer, Leo Nellissen, Paul Begheyn SJ & Charles Caspers, Martiaal en theatraal. De jezuïeten in Ravenstein (1643-1772). Inleiding en vertaling van de jaarbrieven Nijmgen: Uitgeverij Valkhof Pers 2019; ISBN 978 90 5625 514 5)
+More information can be found at: https://jaarbrieven.blogspot.com/ and https://www.stilus.nl/litterae/
+
+T2I from the transcripts to Transkribus model has been done by Dr. C.A. Romein
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 64435    | 6864    | 4.51%   | 3.58%   |
+
+**Ground Truth Examples**
+| 22      | 145 | 66     | 114     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Pylaia NeoLatin Ravenstein p. 22](images/pylaia_neolatin_ravenstein_22.png)](images/pylaia_neolatin_ravenstein_22.png)      | [![Pylaia NeoLatin Ravenstein p. 45](images/pylaia_neolatin_ravenstein_45.png)](images/pylaia_neolatin_ravenstein_45.png)      | [![Pylaia NeoLatin Ravenstein p. 66](images/pylaia_neolatin_ravenstein_66.png)](images/pylaia_neolatin_ravenstein_66.png)   | [![Pylaia NeoLatin Ravenstein p. 114](images/pylaia_neolatin_ravenstein_114.png)](images/pylaia_neolatin_ravenstein_114.png)   |
+
+## Dutch Mountains (18th Century)
+
+**Language:** Dutch
+
+**Description:** Combination of the 18th Century models from the Amsterdam City Archives (3500+ scans of 15 notarial handwritings) and the National Archives of the Netherlands (3500+ scans of VOC handwritings).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 1384893    | 235985    | 9.04%   | 5.67%   |
+
+## Danish Fraktur SB 19th century v.2.35
+
+**Language:** Danish
+
+**Description:** Danish Fraktur SB 19th century v.2.35
+Based on 500+ pages from Royal Danish Court  & State Calendar several years, pages from Danish High Court Proceedings, a few pages from Danish news-papers and other from 19th century, all together based on the NZZ Gold Standard model. Trained on a total of 745.249 Fraktur words in Danish and German.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 30983    | 5349    | 0.28%   | 0.97%   |
+
+**Ground Truth Examples**
+| 4     | 37 | 55     | 56     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Danish Fraktur p. 4](images/danishfraktur_4.png)](images/danishfraktur_4.png)      | [![Danish Fraktur p. 37](images/danishfraktur_37.png)](images/danishfraktur_37.png)      | [![Danish Fraktur p. 55](images/danishfraktur_55.png)](images/danishfraktur_55.png)   | [![Danish Fraktur p. 56](images/danishfraktur_56.png)](images/danishfraktur_56.png)   |
