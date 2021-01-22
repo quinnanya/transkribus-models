@@ -222,3 +222,31 @@ For more information regarding the background of the model read this article (Du
 | :---        |    :----:   |          ---: |          ---: |
 | [![Typewritten/print p. 59](images/type_print_59.png)](images/type_print_59.png)      | [![Typewritten/print p. 94](images/type_print_94.png)](images/type_print_94.png)      | [![Typewritten/print p. 108](images/type_print_108.png)](images/type_print_108.png)   | [![Typewritten/print p. 191](images/type_print_191.png)](images/type_print_191.png)   |
 
+## Danish 1870-1950 v3.5 
+**Language:** Danish
+
+**Description:** General Model for Danish handwriting from 1870-1950.
+
+Newer incrementation of Danish 1870-1950 with added material and further experimentation with base models.
+
+Using material from The Royal Danish Library, Aarhus City Archive, Faxe Archive, Næstved Archive and Gentofte Archive. 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 1603622    | 372704     | 7.68%   | 5.91%   |
+
+No training image samples available.
+
+
+## Gothenburg\_police\_reports_1868-1902
+**Language:** Swedish
+
+**Description:** This model is trained from reports from the Gothenburg Police Detective department 1868-1902, held at the Swedish National Archives in Gothenburg. The groundtruth for the model training consists of transcribed spreads from 1873, 1880, 1888, and 1896.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 165060    | 27931     | 2.85%   | 2.70%   |
+
+**Ground Truth Examples**
+| 318     | 364 | 385     | 422     |
+| [![Gothenburg police p. 318](images/gothenburg_police_318.png)](images/gothenburg_police_318.png)      | [![Gothenburg police p. 364](images/gothenburg_police_364.png)](images/gothenburg_police_364.png)      | [![Gothenburg police p. 385](images/gothenburg_police_385.png)](images/gothenburg_police_385.png)   | [![Gothenburg police p. 422](images/gothenburg_police_422.png)](images/gothenburg_police_422.png)   |
