@@ -76,8 +76,8 @@ No training image samples available.
 
 **Description:** The PyLaia model was trained on the basis of more than 500,000 words from  about 1000 different writers during the period 1580-1705. It can handle the languages German, Low German and Latin and is able to decipher simple German and Latin abbreviations. Besides the usual chancery writings,  the training material also contained a  selection of concept writings and printed  material of the period.  The entire training material is based on  legal texts or court writings from the  Responsa of the Greifswald  Law Faculty. Validation sets are based on a chronological selection of the years: 1580 - 1705 . GT & validation set was produced by Dirk Alvermann, Elisabeth Heigl, Anna Brandt.
 
-| Text | Tech | Words    | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwriting | Pylaia | 594628      | 102545      | 7.10%   | 5.16%   |
 
 No training image samples available.
@@ -95,7 +95,7 @@ Although the model is tailored towards transcribing (Neo-)Latin texts set in Ant
 The NOSCEMUS project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 741374).
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | HTR+ | 448464      | 66575      | 0.40%   | 0.98%   |
 
 No training image samples available.
@@ -109,7 +109,7 @@ The HTR-model was trained on the basis of more than 500,000 words from about 100
 Validation sets are based on a chronological selection of the years: 1580 - 1705 . GT & validation set was produced by Dirk Alvermann, Elisabeth Heigl, Anna Brandt.
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | HTR+ | 594628      | 102545      | 9.43%   | 6.30%   |
 
 No training image samples available.
@@ -125,7 +125,7 @@ This model has been the result of one of the KB National Library of the Netherla
 For more information regarding the background of the model and how to cite it, please visit: https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | Pylaia | 88105      | 13013      | 0.30%   | 1.40%   |
 
 No training image samples available.
@@ -137,7 +137,7 @@ No training image samples available.
 **Description:** This model is based on printed texts in the Gothic font that was used in the Low Countries, during the 16th, 17th and 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. 
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | Pylaia | 51143      | 7143      | 0.20%   | 2.00%   |
 
 No training image samples available.
@@ -153,7 +153,7 @@ AU PARLEMENT DE FLANDRES).
 For more information regarding the background of the model and how to cite it, please visit: www.https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries 
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | Pylaia | 38487     | 3883      | 0.10%   | 0.91%   |
 
 No training image samples available.
@@ -163,8 +163,8 @@ No training image samples available.
 
 **Description:** Large train and test set for german kurrent (19. century). GT from different projects and partners. Biased towards Swiss Documents.
 
-| Text | Tech | Words    | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | Pylaia | 5100439     | 764457      | 4.60%   | 6.90%   |
 
 No training image samples available.
@@ -175,7 +175,7 @@ No training image samples available.
 **Description:** Model is based on Uue-Põltsamaa court records (vallakohus, gemeindegericht) 1852-1864 from Estonian National Archives.
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | HTR+ | 56190     | 10204     | 0.68%   | 3.55%   |
 
 **Ground Truth Examples**
@@ -189,7 +189,7 @@ No training image samples available.
 **Description:** General model for typewritten documents
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | HTR+ | 654961     | 73144     | 1.80%   | 1.28%   |
 
 No training image samples available.
@@ -201,7 +201,7 @@ No training image samples available.
 **Description:** The Italian Administrative Hands model features a variety of Italian-language documents from state archives in Milan, Venice, Florence, Pisa, and Genoa. The training set represents a spectrum of humanistic, italic and cursive hands characteristic of administrative records, employed by secretaries and newswriters. The model has been trained to perform well with a mix of quantitative and qualitative information as well as many common proper nouns for the period, such as locations in Europe and contemporary rulers. Administrative documents often employ common superscript abbreviations, which the accompanying documentation treats in greater detail. The model can also be used with Latin, Spanish and French documents to some extent. The model represents a collaboration between Jake Dyble (Exeter/Pisa), Antonio Iodice (Exeter/Genoa), Sara Mansutti (Cork), and Rachel Midura (Virginia Tech). Documentation at https://emdigit.org/tool/2020/07/21/italian-administrative-hands.html.
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | HTR+ | 67361     | 7193     | 9.15%   | 10.80%   |
 
 No training image samples available.
@@ -214,8 +214,11 @@ No training image samples available.
 For more information regarding the background of the model read this article (Dutch): https://www.nationaalarchief.nl/beleven/nieuws/klussen-aan-nieuw-tekstherkenningsmodel-transkribus-platform 
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
-| :---     | :---        |    :----:   |          ---: |          ---: |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Print | HTR+ | 72170     | 13700     | 1.65%   | 3.24%   |
 
+**Ground Truth Examples**
+| 59     | 94 | 108     | 191     |
+| :---        |    :----:   |          ---: |          ---: |
 | [![Typewritten/print p. 59](images/type_print_59.png)](images/type_print_59.png)      | [![Typewritten/print p. 94](images/type_print_94.png)](images/type_print_94.png)      | [![Typewritten/print p. 108](images/type_print_108.png)](images/type_print_108.png)   | [![Typewritten/print p. 191](images/type_print_191.png)](images/type_print_191.png)   |
 
