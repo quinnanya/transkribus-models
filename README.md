@@ -1,5 +1,8 @@
 # Transkribus models
-Images of example pages from Transkribus model training sets to make it easier to find a match.
+Descriptions, stats, and sample training data (where available) from public [Transkribus](https://transkribus.eu/) models, to help scholars find a model to work with.
+
+If you have a model you'd like to have listed here (along with contact info so people can request access), please email Quinn at qad@stanford.edu.
+
 
 ## DAT 18. Jh M3b\_Pylaia
 **Language:** German
