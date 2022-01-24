@@ -344,7 +344,7 @@ Based on 500+ pages from Royal Danish Court  & State Calendar several years, pag
 
 **Ground Truth Examples**
 | 1     | 38 | 68     |
-| :---        |    :----:   |          ---: |          ---: |
+| :---        |    :----:   |          ---: |
 | [![Devanagari nagara p. 1](images/dnagara_1.png)](images/dnagara_1.png)      | [![Devanagari nagara p. 38](images/dnagara_38.png)](images/dnagara_38.png)      |[![Devanagari nagara p. 68](images/dnagara_68.png)](images/dnagara_68.png)   |
 
 ## DiJeSt for Hebrew Script Languages
@@ -411,7 +411,7 @@ No training image samples available.
 | Handwriting | HTR+ | 36289      | 4888     | 0.71%   | 1.83%   |
 
 **Ground Truth Examples**
-| 3      | 48 | 65     | 167     |
+| 36      | 48 | 65     | 167     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Dutch Margaretha Turnor p. 36](images/dutch_turnor_3.png)](images/dutch_turnor_3.png)      | [![Dutch Margaretha Turnor p. 48](images/dutch_turnor_48.png)](images/dutch_turnor_48.png)      | [![Dutch Margaretha Turnor p. 65](images/dutch_turnor_65.png)](images/dutch_turnor_65.png)   | [![Dutch Margaretha Turnor p. 167](images/dutch_turnor_167.png)](images/dutch_turnor_167.png)   |
 
@@ -429,7 +429,7 @@ No training image samples available.
 **Ground Truth Examples**
 | 1      | 6521 | 6792     | 6962     |
 | :---        |    :----:   |          ---: |          ---: |
-| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_tmountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
+| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_mountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
 
 
 ## Dutch Mountains (18th Century)
@@ -447,7 +447,7 @@ PyLaia
 **Ground Truth Examples**
 | 1      | 6521 | 6792     | 6962     |
 | :---        |    :----:   |          ---: |          ---: |
-| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_tmountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
+| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_mountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
 
 
 ## Dutch Notarial Model 18th Century
@@ -537,6 +537,33 @@ The following chronicles are included: Antwerpen (1643), Den Bosch (1604), Brugg
 | 4051   | 4244 | 4480     | 4834     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Dutch XVII p. 4051](images/dutch_xvii_4051.png)](images/dutch_xvii_4051.png)      | [![Dutch XVII p. 4244](images/dutch_xvii_4244.png)](images/dutch_xvii_4244.png)      | [![Dutch XVII p. 4480](images/dutch_xvii_4480.png)](images/dutch_xvii_4480.png)   | [![Dutch XVII p. 4834](images/dutch_xvii_4834.png)](images/dutch_xvii_4834.png)   |
+
+## Edelfelt M13+
+**Language:** Swedish
+
+**Description:** 1867, 1873, 1881-1884, 1888-1901
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 438817     | 67412     | 3.77%   | 3.80%   |
+
+**Ground Truth Examples**
+| 1113      | 2389 | 2575     | 2710     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Edelfelt p. 1113](images/edelfelt_1113.png)](images/edelfelt_1113.png)      | [![Edelfelt p. 2389](images/edelfelt_2389.png)](images/edelfelt_2389.png)      | [![Edelfelt p. 2575](images/edelfelt_2575.png)](images/edelfelt_2575.png)   | [![Edelfelt p. 2710](images/edelfelt_2710.png)](images/edelfelt_2710.png)   |
+
+## English Writing M1
+**Language:** English
+
+**Description:**
+Based on Jeremy Bentham and secretaries from early 19th century. 50.000+ words.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR | N/A      | N/A      | 4.54%   | 3.66%   |
+
+No training image samples available.
+
 
 ## Estonian Court Records 19thC
 **Language:** Estonian
