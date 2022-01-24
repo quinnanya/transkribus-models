@@ -156,7 +156,7 @@ No training image samples available.
 **Ground Truth Examples**
 | 474     | 782 |
 | :---        |    :----:  |
-| [![Bulliot p. 474](images/bulliot_474_.png)](images/bulliot_474_.png)      | [![Bulliot p. 782](images/bulliot_782.png)](images/bulliot_782.png)    |
+| [![Bulliot p. 474](images/bulliot_474.png)](images/bulliot_474.png)      | [![Bulliot p. 782](images/bulliot_782.png)](images/bulliot_782.png)    |
 
 ## BM_Kortrijk_M1+
 **Languages:** Dutch
