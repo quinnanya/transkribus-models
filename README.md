@@ -3,6 +3,60 @@ Descriptions, stats, and sample training data (where available) from public [Tra
 
 If you have a model you'd like to have listed here (along with contact info so people can request access), please email Quinn at qad@stanford.edu.
 
+## 18c Danish Administrative Writing
+**Language:** Danish
+**Description:** 
+This model was made in a collaboration between Associate Professor Nina Javette Koefoed from Aarhus University and City Archivist Søren Bitsch Christensen and Archvist Kristian Pindstrup of Aarhus City Archive.
+
+It is based on the model 18th Century Danish Prison Records v.5.1, which is also used as base model.  The primary training material consists of 18th Century protocols from the penitentiary on Møn. To increase the universality of the model, further training material has been added from the models "Various Danish Hands c. 1780 v. 1.13" by Associate Professor Johan Heinsen from Aalborg University and "17th Century Norwegian Court Records - Model Version 5" by former Senior Advisor Steve Jackson from the National Archival Services of Norway.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 623268      | 103155     | 7.17%   | 5.93%   |
+
+No training image samples available.
+
+## 18c Danish Administrative Writing (PyLaia)
+**Language:** Danish
+**Description:** 
+This model was made in a collaboration between Associate Professor Nina Javette Koefoed from Aarhus University and City Archivist Søren Bitsch Christensen and Archvist Kristian Pindstrup of Aarhus City Archive.
+
+It is based on the model 18th Century Danish Prison Records v.5.1, which is also used as base model.  The primary training material consists of 18th Century protocols from the penitentiary on Møn. To increase the universality of the model, further training material has been added from the models "Various Danish Hands c. 1780 v. 1.13" by Associate Professor Johan Heinsen from Aalborg University and "17th Century Norwegian Court Records - Model Version 5" by former Senior Advisor Steve Jackson from the National Archival Services of Norway.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 623268      | 103155     | 3.90%   | 6.00%   |
+
+No training image samples available.
+
+
+## 18th Century Danish 1.03
+**Language:** Danish
+**Description:** 
+This model was trained by associate professor Johan Heinsen, Aalborg University. It was trained on handwriting from various military court records as well as court cases relating to inmates in various convict labour institutions in the eighteenth century. An example of the material can be found here: https://ao.sa.dk/ao/data.ashx?bid=80654798
+
+Because the material deals mostly with soldiers and male convicts, the model has difficulty with pronouns. It also struggles dealing with hands that are highly slanted or overly compact.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 288719      | 40646     | 5.61%   | 6.48%   |
+
+No training image samples available.
+
+## ASMi
+**Language:** Italian
+**Description:** 
+Model trained on documents c.1560-1620 from the Archvio di Stato di Milano
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 11325      | 1082     | 0.91%   | 20.13%   |
+
+**Ground Truth Examples**
+| 9     | 14 | 52     |
+| :---      |          ---: |          ---: |
+| [![ASMi ground truth page 1](images/asmi_9.png)]     | [![ASMi ground truth page 14](images/asmi_14.png)]   | [![ASMi ground truth page 52](images/asmi_52.png) |
+
 ## Acta_17 (extended)
 **Language:** German, Latin
 
@@ -41,6 +95,18 @@ No training image samples available.
 | Handwriting | Pylaia | 594628      | 102545      | 7.10%   | 5.16%   |
 
 No training image samples available.
+
+## Admiraliteit Zeeland 1605-1609 compleet
+**Languages:** Dutch
+
+**Description:** Civil affairs, 1605-1609, mainly customs
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 142715      | 20008      | 1.20%   | 1.12%   |
+
+No training image samples available.
+
 
 ## Annuaires_Propietaires_Adr_Paris_1898_1923
 **Languages:** French
@@ -101,12 +167,78 @@ No training image samples available.
 | :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwriting | HTR+ | 11915      | 1665     | 0.22%   | 2.53%  |
 
-No training image samples available.
-
 **Ground Truth Examples**
 | 1     | 83 | 101     |
 | :---      |          ---: |          ---: |
 | [![BM_Kortrijk_M1+ p. 2](images/bm_kortrijk_2.png)](images/bm_kortrijk_2.png)      | [![BM_Kortrijk_M1+ p. 48](images/bm_kortrijk_48.png)](images/bm_kortrijk_48.png)      | [![BM_Kortrijk_M1+ p. 52](images/bm_kortrijk_52.png)](images/bm_kortrijk_52.png) |
+
+## Behrens_Peter_final
+**Languages:** German
+
+**Description:** Peter Behrens' handwriting based on letters to Richard and Ida Dehmel between the years 1899-1919.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 10504      | 1851    | 0.58%   | 3.04% |
+
+No training image samples available.
+
+## BnF_Newseye_M2+
+**Languages:** French
+
+**Description:** The model works well with French script from late 18th century to mid of 20th century. For normal running text in French newspapers from that time error rates much below 1% were measured.
+
+The model was created in the NewsEye project and is based on training data coming from the digital library Gallica of the French National Library (BnF).
+
+Note: the model is trained on French language documents (French dailies, 1850-1945) and will therefore be less performant on other languages.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 434100      | 67073    | 4.72%   | 2.73% |
+
+No training image samples available.
+
+## Charos V/ Charles V
+**Languages:** Early modern Spanish - 15th century (1543)
+
+**Description:** This HTR-model is based on the personal handwriting of Charles V of Spain. It is based upon political-institutional texts/ a letter of instructions to his son.
+It is based upon the book: Rachael Ball and Geoffrey Parker (eds.), Cómo ser rey. Instrucciones del emperador Carlos V a su hijo Felipe. Mayo de 1543. Spanish-English bilingual edition; jointly published with the CSA and The Hispanic Society of America; 2014; ISBN 978-84-15245-45-2
+
+Examples of the handwriting can be found at: [https://doi.org/10.5281/zenodo.5381739](https://doi.org/10.5281/zenodo.5381739)
+
+Please cite this HTR+-model as: Rachael Ball, Geoffrey Parker,  the Hispanic Society of America, C.A Romein, Transkribus Public HTR+ Model: Carlos V/ Charles V Cómo ser rey_1543
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 9279      | 1603    | 0.39%   | 6.94% |
+
+**Ground Truth Examples**
+[![Charos V / Charles V example](images/charosv.png)
+
+## Charter Scripts XIII-XV_M1
+**Languages:** German, Latin, French
+
+**Description:** Combination of GT of different charter scripts. From different projects and institutions. Aiming at building a generic model.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 938325      | 55401    | 7.82%   | 6.32% |
+
+No training image samples available.
+
+## Combined_Full_VKS_2
+**Languages:** Church Slavonic
+
+**Description:** Training data consist of parts of the Russian Church Slavonic Great Reading Menology (16th century), Old Church Slavonic Codex Suprasliensis (11th century), and the 11th century manuscript of the Catecheses of Cyril of Jerusalem. This is a generic model suitable for transcribing a variety of Old Cyrillic script styles including uncial and semi-uncial.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 393079      | 75422    | 4.44%   | 3.94% |
+
+**Ground Truth Examples**
+| 1     | 311 | 720     |
+| :---      |          ---: |          ---: |
+| [![Combined Full VKS2 p. 1](images/combinedfull_1.png)](images/combinedfull_1.png)      | [![Combined Full VKS2 p. 311](images/combinedfull_311.png)](images/combinedfull_311.png)      | [![Combined Full VKS2 p. 720](images/combinedfull_720.png)](images/combinedfull_720.png) |
 
 
 ## Danish 1870-1950 v3.5 
