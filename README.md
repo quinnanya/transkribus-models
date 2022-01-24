@@ -55,7 +55,7 @@ Model trained on documents c.1560-1620 from the Archvio di Stato di Milano
 **Ground Truth Examples**
 | 9     | 14 | 52     |
 | :---      |          ---: |          ---: |
-| [![ASMi ground truth page 1](images/asmi_9.png)]     | [![ASMi ground truth page 14](images/asmi_14.png)]   | [![ASMi ground truth page 52](images/asmi_52.png) |
+| [![ASMi ground truth page 1](images/asmi_9.png)](images/asmi_9.png)     | [![ASMi ground truth page 14](images/asmi_14.png)](images/asmi_14.png)   | [![ASMi ground truth page 52](images/asmi_52.png)](images/asmi_52.png) |
 
 ## Acta_17 (extended)
 **Language:** German, Latin
