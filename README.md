@@ -241,6 +241,20 @@ No training image samples available.
 | [![Combined Full VKS2 p. 1](images/combinedfull_1.png)](images/combinedfull_1.png)      | [![Combined Full VKS2 p. 311](images/combinedfull_311.png)](images/combinedfull_311.png)      | [![Combined Full VKS2 p. 720](images/combinedfull_720.png)](images/combinedfull_720.png) |
 
 
+## Danish 1870-1950
+**Language:** Danish
+
+**Description:** General model for Danish Handwriting from late 19th and 20th Century. Based on the model RoyalDanishLibrary_20thCentury+ and parish council minutes from Aarhus City Archives.
+
+Created by Jan Mattias Jonsson Agger at Aarhus City Archives based on work by volunteers at the City Archives and the work from Jakob K. Meile & the staff at the Royal Danish Library
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 348716    | 81959     | 5.23%   | 4.28%   |
+
+No training image samples available.
+
+
 ## Danish 1870-1950 v3.5 
 **Language:** Danish
 
@@ -252,7 +266,25 @@ Using material from The Royal Danish Library, Aarhus City Archive, Faxe Archive,
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
 | :---    | :---    | :---        |    :----:   |          ---: |          ---: |
-| Handwritten (but text is typewritten) | HTR+ | 1603622    | 372704     | 7.68%   | 5.91%   |
+| Handwritten | HTR+ | 1603622    | 372704     | 7.68%   | 5.91%   |
+
+No training image samples available.
+
+## Danish 1870-1950 v3.5 PyLaia
+**Language:** Danish
+
+**Description:** General Model for Danish handwriting by various hands from c. 1870-1950.
+
+The same data as Danish 1870-1950 v3.5 but using the PyLaia engine instead of HTR+.
+
+Created by Kristian Pindstrup & Jan Mattias Jonsson Agger at Aarhus City Archives.
+Using available material from The Royal Danish Library as well as material from the work of the volunteers at Aarhus City Archive, Faxe Archive, Næstved Archive and Gentofte Archive who has transcribed various city and parish council minutes. 
+
+More info in Danish on the project at  [http://retrodigitalisering.dk](http://retrodigitalisering.dk)
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | Pylaia | 1603622    | 372704     | 5.20%   | 4.70%  |
 
 No training image samples available.
 
@@ -286,6 +318,35 @@ Based on 500+ pages from Royal Danish Court  & State Calendar several years, pag
 | :---        |    :----:   |          ---: |          ---: |
 | [![DAT 18 p. 110](images/dat18_110.png)](images/dat18_110.png)      | [![DAT 18 p. 166](images/dat18_166.png)](images/dat18_166.png)      | [![DAT 18 p. 181](images/dat18_181.png)](images/dat18_181.png)   | [![DAT 18 p. 201](images/dat18_201.png)](images/dat18_201.png)   |
 
+
+## Devanagari mixed M1
+**Language:** Hindi
+
+**Description:** Devanagari script from several books late 19th early 20th century.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR | 25938      | 4258     | 4.12%   | 5.59%   |
+
+**Ground Truth Examples**
+| 3      | 50 | 105     | 200     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Devanagari p. 3](images/devanagari_3.png)](images/devanagari_3.png)      | [![Devanagari p. 50](images/devanagari_50.png)](images/devanagari_50.png)      | [![Devanagari p. 105](images/devanagari_105.png)](images/devanagari_105.png)   | [![Devanagari 18 p. 200](images/devanagari_200.png)](images/devanagari_200.png)   |
+
+## Devanagari_nagara_M1
+**Language:** Hindi
+
+**Description:** Devanagari script, early 20th century, NKP collection, p. 8-40, 60-80, 100-115
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR | 19243      | 2092     | 0.46%   | 1.77%   |
+
+**Ground Truth Examples**
+| 1     | 38 | 68     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Devanagari nagara p. 1](images/dnagara_1.png)](images/dnagara_1.png)      | [![Devanagari nagara p. 38](images/dnagara_38.png)](images/dnagara_38.png)      |[![Devanagari nagara p. 68](images/dnagara_68.png)](images/dnagara_68.png)   |
+
 ## DiJeSt for Hebrew Script Languages
 
 **Language:** Hebrew, Yiddish, Ladino, Judeo-Arabic
@@ -304,6 +365,17 @@ http://dijest.net/gtmodel
 
 
 
+## Dutch\_Gothic\_Print
+**Language:** Dutch (16th, 17th, 18th century)
+
+**Description:** This model is based on printed texts in the Gothic font that was used in the Low Countries, during the 16th, 17th and 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. This model has been the result of one of the KB National Library of the Netherlands Researcher-in-Residence position 2019. The project was called 'Entangled Histories'. For more information regarding the background of the model and how to cite it, please visit: [https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries](https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries) 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 51143      | 7143      | 0.22%   | 1.71%  |
+
+No training image samples available.
+
 ## Dutch\_Gothic\_Print_Pylaia
 **Language:** Dutch Gothic
 
@@ -315,6 +387,33 @@ http://dijest.net/gtmodel
 
 No training image samples available.
 
+## Dutch manuscript poetry 1603-1636
+**Language:** Dutch
+
+**Description:** Model trained on an extensive manuscript of early modern poetry, in separate hands (of which one is the most important) using different types of writing and special lay-outs (e.g. chronograms).
+Author of the manuscript is a rhetorician (vernacular poet) from Mechelen, present-day Belgium, active in the first decades of the seventeenth century.  Training was based on a word count of over 50,000 words (more than 200 folios of text).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 51788      | 7414     | 1.43%  | 4.78%   |
+
+No training image samples available.
+
+
+## Dutch Margaretha Turnor 17th Century
+
+**Language:** Dutch
+
+**Description:** This is the first model created by the Utrecht Archives. It is based on a thousand letters Margaretha Turnor wrote to her husband during the late 17th century. She managed the castle of Amerongen, while her husband worked abroad as a diplomat  for the Dutch Republic. Her letters provide an insight into family life in the Dutch Republic as well as the political situation in the country.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwriting | HTR+ | 36289      | 4888     | 0.71%   | 1.83%   |
+
+**Ground Truth Examples**
+| 3      | 48 | 65     | 167     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Dutch Margaretha Turnor p. 36](images/dutch_turnor_3.png)](images/dutch_turnor_3.png)      | [![Dutch Margaretha Turnor p. 48](images/dutch_turnor_48.png)](images/dutch_turnor_48.png)      | [![Dutch Margaretha Turnor p. 65](images/dutch_turnor_65.png)](images/dutch_turnor_65.png)   | [![Dutch Margaretha Turnor p. 167](images/dutch_turnor_167.png)](images/dutch_turnor_167.png)   |
 
 ## Dutch Mountains (18th Century)
 
@@ -326,6 +425,60 @@ No training image samples available.
 | :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | HTR+ | 1384893    | 235985    | 9.04%   | 5.67%   |
 
+
+**Ground Truth Examples**
+| 1      | 6521 | 6792     | 6962     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_tmountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
+
+
+## Dutch Mountains (18th Century)
+
+**Language:** Dutch
+
+**Description:** Combination of the 18th Century models from the Amsterdam City Archives (3500+ scans of 15 notarial handwritings) and the National Archives of the Netherlands (3500+ scans of VOC handwritings).
+PyLaia
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 1384893    | 235985    | 9.04%   | 5.67%   |
+
+
+**Ground Truth Examples**
+| 1      | 6521 | 6792     | 6962     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Dutch Mountains p. 1](images/dutch_mountains_1.png)](images/dutch_mountains_1.png)      | [![Dutch Margaretha Turnor p. 6521](images/dutch_tmountains_6521.png)](images/dutch_mountains_6521.png)      | [![Dutch Mountains p. 6892](images/dutch_mountains_6792.png)](images/dutch_mountains_6792.png)   | [![Dutch Margaretha Turnor p. 6962](images/dutch_mountains_6962.png)](images/dutch_mountains_6962.png)   |
+
+
+## Dutch Notarial Model 18th Century
+**Language:** Dutch
+
+**Description:** This is the first 18th Century general model created by the City Archives of Amsterdam. It is based on thousands of scans from in total 15 different notaries who worked in Amsterdam during the 18th Century.
+
+All notaries (except Van Hoorn and Van Esterwege) have 10 scans validation included (2671 scans training, 130 validation)).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 622904      | 116698     | 7.11%   | 5.32%   |
+
+No training image samples available.
+
+
+## Dutch\_Romantype_Print
+**Language:** Dutch Roman Print
+
+**Description:**
+This model is based on printed texts in the Roman font that was used in the Low Countries, during the 16th, 17th and 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. 
+
+This model has been the result of one of the KB National Library of the Netherlands Researcher-in-Residence position 2019. The project was called 'Entangled Histories'. 
+
+For more information regarding the background of the model and how to cite it, please visit: https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 88105      | 13013      | 0.74%  | 1.20%   |
+
+No training image samples available.
 
 ## Dutch\_Romantype_Pylaia
 **Language:** Dutch Roman Print
@@ -342,6 +495,48 @@ For more information regarding the background of the model and how to cite it, p
 | Print | Pylaia | 88105      | 13013      | 0.30%   | 1.40%   |
 
 No training image samples available.
+
+## Dutch XVII Century
+
+**Language:** Dutch
+
+**Description:** Chronicling Novelty and the Amsterdam City Archives present a first collaboration for a general model for handwritings from the Low Countries in the 17th Century.
+
+The Amsterdam City Archives contributed with 14 17th Century Amsterdam notarial handwritings, consisting of each maximum 290 scans training and	each 10 scan validation:
+Bruijningh, Mathijsz, Westfrisius, Schaef, De Winter, Van der Groe, Anthony van de Ven, Van Sevenhoven, Des Pommare, Borsselaer, Pondt, De Vos, Joost van de Ven and Venkel.
+
+Chronicling Novelty (https://chroniclingnovelty.com/) contributed with 20 17th Century handwritings from chronicles from nowadays Belgium and the Netherlands, consisting of minimum 10 and maximum 290 scans training material per handwriting, if possible with a validation set of 10 scans.
+The following chronicles are included: Antwerpen (1643), Den Bosch (1604), Brugge (1675, 1684), Brussel (1681), Gent (1666, 1668, 1668), Hauwert (1636), Ieper (1695), Leeuwarden (1671, 1697), Mechelen (1657, 1665), De Rijp (1652), Rotterdam (1648, 1658, 1663, 1690) and Zwolle (1681).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 1891025    | 331753    | 6.93%   | 6.28%   |
+
+**Ground Truth Examples**
+| 4051   | 4244 | 4480     | 4834     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Dutch XVII p. 4051](images/dutch_xvii_4051.png)](images/dutch_xvii_4051.png)      | [![Dutch XVII p. 4244](images/dutch_xvii_4244.png)](images/dutch_xvii_4244.png)      | [![Dutch XVII p. 4480](images/dutch_xvii_4480.png)](images/dutch_xvii_4480.png)   | [![Dutch XVII p. 4834](images/dutch_xvii_4834.png)](images/dutch_xvii_4834.png)   |
+
+## Dutch XVII Century
+
+**Language:** Dutch
+
+**Description:** Chronicling Novelty and the Amsterdam City Archives present a first collaboration for a general model for handwritings from the Low Countries in the 17th Century.
+
+The Amsterdam City Archives contributed with 14 17th Century Amsterdam notarial handwritings, consisting of each maximum 290 scans training and	each 10 scan validation:
+Bruijningh, Mathijsz, Westfrisius, Schaef, De Winter, Van der Groe, Anthony van de Ven, Van Sevenhoven, Des Pommare, Borsselaer, Pondt, De Vos, Joost van de Ven and Venkel.
+
+Chronicling Novelty (https://chroniclingnovelty.com/) contributed with 20 17th Century handwritings from chronicles from nowadays Belgium and the Netherlands, consisting of minimum 10 and maximum 290 scans training material per handwriting, if possible with a validation set of 10 scans.
+The following chronicles are included: Antwerpen (1643), Den Bosch (1604), Brugge (1675, 1684), Brussel (1681), Gent (1666, 1668, 1668), Hauwert (1636), Ieper (1695), Leeuwarden (1671, 1697), Mechelen (1657, 1665), De Rijp (1652), Rotterdam (1648, 1658, 1663, 1690) and Zwolle (1681).
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 1890993    | 341783    | 11.70%   | 9.80%   |
+
+**Ground Truth Examples**
+| 4051   | 4244 | 4480     | 4834     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Dutch XVII p. 4051](images/dutch_xvii_4051.png)](images/dutch_xvii_4051.png)      | [![Dutch XVII p. 4244](images/dutch_xvii_4244.png)](images/dutch_xvii_4244.png)      | [![Dutch XVII p. 4480](images/dutch_xvii_4480.png)](images/dutch_xvii_4480.png)   | [![Dutch XVII p. 4834](images/dutch_xvii_4834.png)](images/dutch_xvii_4834.png)   |
 
 ## Estonian Court Records 19thC
 **Language:** Estonian
