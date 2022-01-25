@@ -598,6 +598,35 @@ Manuscripts from the archive of Konstantin Rychkov provided by the Institute of 
 
 No training image samples available.
 
+## Français ANOM
+**Language:** French
+
+**Description:** Documents from series F3, C11A and C11E. 17th and 18th Centuries
+
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 128175    | 16392      | 6.43%   | 8.05%  |
+
+No training image samples available.
+
+
+## French\_18thC_Print
+**Language:** French
+
+**Description:** This model is based on printed texts in French (Romantype Font) that was used in Flanders (Low Countries), during the 18th century. The type of sources used for this model, are books of ordinances, which contained the norms ('laws') at the time. 
+
+This model has been the result of one of the KB National Library of the Netherlands Researcher-in-Residence position 2019. The project was called 'Entangled Histories'. The books used for this specific model, have been provided by the Bodleian Library Oxford (RECUEIL DES ÉDITS, DÉCLARATIONS, LETTRES-PATENTES, &c. ENREGISTRÉS
+AU PARLEMENT DE FLANDRES).
+
+For more information regarding the background of the model and how to cite it, please visit: www.https://lab.kb.nl/dataset/entangled-histories-ordinances-low-countries 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 38487     | 3883      | 0.09%   | 0.74%   |
+
+No training image samples available.
+
 ## French\_18thC_Pylaia
 **Language:** French
 
@@ -614,6 +643,22 @@ For more information regarding the background of the model and how to cite it, p
 
 No training image samples available.
 
+## German Fraktur 18th Century - WrDiarium_\M9
+**Language:** 18th ct. Austrian German
+
+**Description:** Creator: Austrian Centre for Digital Humanities and Cultural Heritage at the Austrian Academy of Sciences. The model is based on c. 3.000 pages from the „Wien[n]erisches Diarium“ / „Wiener Zeitung“ (1703-1799). 
+The model was created within the project „Das Wien[n]erische Diarium: Digitaler Datenschatz für die geisteswissenschafttlichen Diziplinen“ (The Wien[n]erisches Diarium: A digital data treasury for the humanities) and is provided by Claudia Resch and Dario Kampkaspar. 
+See: [https://digitarium.acdh.oeaw.ac.at/](https://digitarium.acdh.oeaw.ac.at)
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 829447    | 125537     | 1.16%   | 0.79%  |
+
+**Ground Truth Examples**
+| 1     | 1203 | 1317    | 1451     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![German Fraktur 18c p. 1](images/germanfraktur18_1.png)](images/germanfraktur18_1.png)      | [![German Fraktur 18c p. 1203](images/germanfraktur18_1203.png)](images/germanfraktur18_1203.png)      | [![German Fraktur p. 1317](images/germanfraktur18_1317.png)](images/germanfraktur18_1317.png)   | [![German Fraktur 18c p. 1451](images/germanfraktur18_1451.png)](images/germanfraktur18_1451.png)   |
+
 ## German\_Kurrent_17th-18th
 **Languages:** German, Latin, French
 
@@ -621,7 +666,41 @@ No training image samples available.
 
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
 | :--- | :---     | :---        |    :----:   |          ---: |          ---: |
-| Handwriting | Pylaia | 1839841      | 289857      | 6.00%   | 5.50%   |
+| Handwriting | PyLaia | 1839841      | 289857      | 6.00%   | 5.50%   |
+
+No training image samples available.
+
+## German\_Kurrent\_XIX-XX\_M6-1
+**Language:** German
+
+**Description:** Large train and test set for german kurrent (19. century). GT from different projects and partners. 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 6343706     | 943019      | 6.75%  | 7.48%   |
+
+No training image samples available.
+
+
+## German\_Kurrent\_XIX-XX\_M6-2
+**Language:** German
+
+**Description:** Large train and test set for german kurrent (19. century). GT from different projects and partners. 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | PyLaia | 6343689     | 1027960      | 4.00%  | 4.60%  |
+
+No training image samples available.
+
+## German\_Kurrent\_XIX\_M2
+**Language:** German
+
+**Description:** Large train and test set for german kurrent (19. century). GT from different projects and partners. Biased towards Swiss Documents. Capable to recognize printed pages. 
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 5100439    | 764457      | 4.40%  | 6.53%   |
 
 No training image samples available.
 
@@ -633,6 +712,42 @@ No training image samples available.
 | Text | Tech | Words     | Lines | CER train     | CER validation     |
 | :---    | :---    | :---        |    :----:   |          ---: |          ---: |
 | Handwritten | Pylaia | 5100439     | 764457      | 4.60%   | 6.90%   |
+
+No training image samples available.
+
+## German\_Kurrent\_XVI-XVII\_M1
+**Language:** German
+
+**Description:** Generic model for the recognition of Kurrent scripts. Different Documents and Styles.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 1579208     | 248255     | 11.82%  | 8.42%   |
+
+No training image samples available.
+
+## Gjentofte 1881-1913 Denmark 1000 epochs
+**Language:** Danish
+
+**Description:** Gentofte 1908- 1913 s. 132-231 (215-115) ((only 1-6), Gentofte 1881-1892 s 2-15 (50050), Gentofte 1881-92 fil 94-140 (500045), Gentofte 1893-1903 s. 190-289(50058), Gentofte 1903-1908 forside-95(50094), Gentofte 1903-1908 s. 96-195   (50093), Gentofte 1903-1908 s.196-283  (50092), Gentofte 1908-1913 forside-104 50074), Gentofte 1867-1880 s 258-bagside (50034)
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 154388    | 28230     | 2.46%   | 4.43%   |
+
+**Ground Truth Examples**
+| 1     | 3 | 136     | 203    |
+| :---        |    :----:   |          ---: |          ---: |
+| [![Gjentofte p. 1](images/gjentofte_1.png)](images/gjentofte_1.png)      | [![Gjentofte p. 3](images/ggjentofte_3.png)](images/gjentofte_3.png)      | [![Gjentofte p. 136](images/gjentofte_136.png)](images/ggjentofte_136.png)   | [![Gjentofte p. 203](images/gjentofte_203.png)](images/gjentofte_203.png)   |
+
+## Glagolitic printings
+**Language:** South Slavic Glagolitic
+
+**Description:** The model is the result of a collaboration between the University Library Tübingen and the Slavic Department Freiburg (Achim Rabus). Selected pages from different printings of the Tübingen-Urach tradition have been taken as GT.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Print | HTR+ | 28212     | 5093     | 3.00%  | 4.24%   |
 
 No training image samples available.
 
@@ -650,6 +765,18 @@ No training image samples available.
 | 318     | 364 | 385     | 422     |
 | :---        |    :----:   |          ---: |          ---: |
 | [![Gothenburg police p. 318](images/gothenburg_police_318.png)](images/gothenburg_police_318.png)      | [![Gothenburg police p. 364](images/gothenburg_police_364.png)](images/gothenburg_police_364.png)      | [![Gothenburg police p. 385](images/gothenburg_police_385.png)](images/gothenburg_police_385.png)   | [![Gothenburg police p. 422](images/gothenburg_police_422.png)](images/gothenburg_police_422.png)   |
+
+
+## Gothic\_Book\_Scripts\_XIII-XV\_M4
+**Language:** Latin, German
+
+**Description:** Retraining of different gothic book hands (handwriting). XIII-XVct.
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 875728     | 141633     | 4.61%  | 4.92%   |
+
+No training image samples available.
 
 
 ## Italian Administrative Hands, 1550-1700
