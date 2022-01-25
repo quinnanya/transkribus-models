@@ -738,7 +738,7 @@ No training image samples available.
 **Ground Truth Examples**
 | 1     | 3 | 136     | 203    |
 | :---        |    :----:   |          ---: |          ---: |
-| [![Gjentofte p. 1](images/gjentofte_1.png)](images/gjentofte_1.png)      | [![Gjentofte p. 3](images/ggjentofte_3.png)](images/gjentofte_3.png)      | [![Gjentofte p. 136](images/gjentofte_136.png)](images/ggjentofte_136.png)   | [![Gjentofte p. 203](images/gjentofte_203.png)](images/gjentofte_203.png)   |
+| [![Gjentofte p. 1](images/gjentofte_1.png)](images/gjentofte_1.png)      | [![Gjentofte p. 3](images/gjentofte_3.png)](images/gjentofte_3.png)      | [![Gjentofte p. 136](images/gjentofte_136.png)](images/ggjentofte_136.png)   | [![Gjentofte p. 203](images/gjentofte_203.png)](images/gjentofte_203.png)   |
 
 ## Glagolitic printings
 **Language:** South Slavic Glagolitic
@@ -778,6 +778,20 @@ No training image samples available.
 
 No training image samples available.
 
+
+## HIMANIS Chancery M1+
+**Language:** Latin, French
+
+**Description:** As part of the HIMANIS project (lead by D. Stutzmann, C. Kermorvant & E. Vidal), the text edition provided by P. Guérin and encoded in TEI by the Ecole nationale des Chartes (http://corpus.enc.sorbonne.fr/actesroyauxdupoitou/) and the one by J. Viard were aligned at line level and used to train this comprehensive model for French and Latin Chancery documents. More information on the project can be found at: http://himanis.huma-num.fr/himanis/
+
+| Text | Tech | Words     | Lines | CER train     | CER validation     |
+| :---    | :---    | :---        |    :----:   |          ---: |          ---: |
+| Handwritten | HTR+ | 665988    | 39410     | 6.87%   | 5.33%   |
+
+**Ground Truth Examples**
+| 1    | 1010 | 1225     | 1358     |
+| :---        |    :----:   |          ---: |          ---: |
+| [![HIMANIS p.1](images/himanis_1.png)](images/himanis_1.png)      | [![HIMANIS p. 1010](images/himanis_1010.png)](images/himanis_1010.png)      | [![HIMANIS p. 1225](images/himanis_1225.png)](images/himanis_1225.png)   | [![HIMANIS p. 1358](images/himanis_1358.png)](images/himanis_1358.png)   |
 
 ## Italian Administrative Hands, 1550-1700
 
